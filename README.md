@@ -1,2 +1,2 @@
 # pythonTextAdventure
-Advanced Computer Science Midterm
+Advanced Computer Science Project
