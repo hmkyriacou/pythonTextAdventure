@@ -1,0 +1,25 @@
+item = input("Take: ")
+
+outfile = open("save.txt", "w")
+usedSpace = 0
+
+while (usedSpace <= 10):  
+
+    outfile.write( item + '\n')  
+    usedSpace +=1
+    print("taken")
+    item = input("Take: ")
+
+outfile.close()
+print("you can't carry that much stuff")
+
+infile = open ("save.txt", "r")
+line = infile.readline()
+
+
+while line:
+        print (line) #change characters to uppercase
+        line = infile.readline() #the indentation of this line should match the if line indentation
+    
+
+line = infile.close()
