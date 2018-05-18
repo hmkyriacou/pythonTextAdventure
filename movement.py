@@ -17,9 +17,11 @@ def move():
 def actionInput():
     global command
     global ACTIONS
+    returnVar = []
     commandWords = command.split(' ')
     commandWordsTest = commandWords
     for x in range(len(commandWords)):
         for y in range(len(ACTIONS)):
             if (commandWordsTest[x].upper() == ACIONS[y]):
-                return commandWords[x]
+                returnVar.append(commandWords[x])
+    return returnVar
