@@ -1,0 +1,20 @@
+###LIST OF ACTION WORDS
+move
+  up
+  down
+  north
+  south
+  west
+  east
+attack
+take
+drop
+throw
+info
+  look
+use
+  talk
+  read
+open
+hack
+inventory
